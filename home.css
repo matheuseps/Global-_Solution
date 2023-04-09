@@ -75,8 +75,8 @@ header .navegation li a{
     font-weight: 700;
 }
 .content .text h2 span{
-    font-size: 3em;
-    color: #6868ED;
+    font-size: 3.5em;
+    color: #;
 }
 .content .text p{
     color: #fff;
@@ -133,6 +133,9 @@ header .navegation li a{
     bottom: -40px;
 }
 .boxImg img{
-    width: 600px;
-    height: 400em;
+    width: 200px;
 }
+.boxImg .img1{
+    transform: rotate(-15deg)
+}
+

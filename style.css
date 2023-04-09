@@ -1,138 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
-*{
+body{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-section{
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    padding: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #121212;
-    overflow: hidden;
-}
-.circle{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #6868ED;
-    clip-path: circle(50% at bottom right);
-}
-header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 40px 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-header .logo{
-    position: relative;
-    max-width: 150px;
-}
-header .navegation ul{
-    position: relative;
-    display: flex;
-}
-header .navegation  li{
-    list-style: none;
-}
-header .navegation li a{
-    display: inline-block;
-    color: #fff;
-    font-weight: 500;
-    text-decoration: none;
-    font-size: 19px;
-    margin-left: 100px;
-}
-.content{
-    position: relative;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.content .text{
-    position: relative;
-    max-width: 600px;
-    margin-right: 20px;
-}
-.content .text h2{
-    color: #fff;
-    font-size: 3em;
-    margin-bottom: 10px;
-    line-height: 2.5em;
-    font-weight: 700;
-}
-.content .text h2 span{
-    font-size: 3.5em;
-    color: #6868ED;
-}
-.content .text p{
-    color: #fff;
-}
-.content .text a{
-    display: inline-block;
-    margin-top: 50px;
-    padding: 10px 25px;
-    background: #6868ED;
-    color: #fff;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-decoration: none;
-    border-radius: 40px;
-    transition: 0.3s ease-in-out;
-}
-.content .text a:hover{
-    transform: translateY(-10px);
-}
-.icons{
-    position: absolute;
-    bottom: 40px;
-    left: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.icons li{
-    list-style: none;
-}
-.icons li a{
-    display: inline-block;
-    margin-left: 45px;
-    background: #222;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    transition:  0.3s ease-in-out;
-}
-.icons li a:hover{
-    background: #6868ED;
-    transform: translateY(-10px);
-}
-.icons li a img{
-    filter: invert(1);
-    transform: scale(0.5);
-}
-.boxImg{
-    position: absolute;
-    right: 0;
-    bottom: -40px;
-}
-.boxImg img{
-    width: 200px;
 }
 
+.main-Login{
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.left-Login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-Login > h1{
+   color: #6868ED;
+}
+
+.right-Login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-Login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 8px 10px 40px #00000056;
+}
+
+.card-Login > h1{
+    color: #6868ED;
+    font-weight: 800;
+    margin: 0;
+}
+
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 8px;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #514869;
+    font-size: 12px;
+    box-shadow: 0px 10px 10px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label{
+    color:#f0ffffde ;
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder{
+color: #f0ffff94;
+}
+.btn-Login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #6868ED;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #263EEF;
+
+}
