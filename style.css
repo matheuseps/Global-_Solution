@@ -3,6 +3,9 @@
 body{
     margin: 0;
 }
+*body{
+    box-sizing: border-box;
+}
 
 .main-Login{
     width: 100vw;
@@ -96,4 +99,28 @@ color: #f0ffff94;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #263EEF;
 
+}
+
+
+@midia only screen and (max-width: 950px){
+    .card-Login{
+        width:85%
+    }
+}
+
+@midia only screen and (max-width: 600px){
+        .main-Login{
+            flex direction:colunm;
+        }
+    .left-Login > h1{
+        display:none;
+    }
+    .left-Login{
+        width:100%;
+        height:auto;
+    }
+    .right-Login{
+        width:100%;
+        height:auto;
+    }
 }
