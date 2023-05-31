@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif ;
-    
 }
+
 section{
     position: relative;
     width: 100%;
@@ -16,6 +16,7 @@ section{
     background: black;
     overflow: hidden;
 }
+
 .circle{
     position: absolute;
     top: 0;
@@ -25,6 +26,7 @@ section{
     background: #017143;
     clip-path: circle(50% at bottom right);
 }
+
 header{
     position: absolute;
     top: 0;
@@ -34,8 +36,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
+
 header .logo{
     position: relative;
     max-width: 125px;
@@ -44,15 +46,18 @@ header .logo{
 header .titulo{
     color: brown;
 }
+
 header .navegation ul{
     position: relative;
     display: flex;
     margin-right: -80px ;
     letter-spacing: 5px;
 }
+
 header .navegation  li{
     list-style: none;
 }
+
 header .navegation li a{
     display: inline-block;
     color: #fff ;
@@ -61,8 +66,8 @@ header .navegation li a{
     font-size: 19px;
     margin-left: 100px;
     letter-spacing: 0px;
-    
 }
+
 .content{
     position: relative;
     width: 100%;
@@ -70,26 +75,24 @@ header .navegation li a{
     align-items: center;
     justify-content: space-between;
 }
+
 .content .text{
     position: relative;
     max-width: 600px;
     margin-right: 20px;
 }
+
 .content .text h2{
     color: #017143;
     font-size: 2em;
     margin-bottom: 10px;
     line-height: 2.5em;
     font-weight: 700;
-    
-  
 }
 
 .content .text p{
     color: #fff;
     text-align: justify;
-    
-
 }
 
 .content .text a{
@@ -104,12 +107,15 @@ header .navegation li a{
     border-radius: 40px;
     transition: 0.3s ease-in-out;
 }
+
 .content .text a:hover{
     transform: translateY(-10px);
 }
+
 .content .text a .criadores{
-background-color: brown;
+    background-color: brown;
 }
+
 .icons{
     position: absolute;
     bottom: 40px;
@@ -118,9 +124,11 @@ background-color: brown;
     justify-content: center;
     align-items: center;
 }
+
 .icons li{
     list-style: none;
 }
+
 .icons li a{
     display: inline-block;
     margin-left: 45px;
@@ -133,10 +141,12 @@ background-color: brown;
     border-radius: 50%;
     transition:  0.3s ease-in-out;
 }
+
 .icons li a:hover{
     background: #017143;
     transform: translateY(-10px);
 }
+
 .icons li a img{
     filter: invert(1);
     transform: scale(0.5);
@@ -148,27 +158,27 @@ background-color: brown;
     bottom: 40px;
     margin-left: -25%;
     max-width: 100%;
-   
-    
 }
+
 .boxImg .img1{
     transform: rotate(2deg)
 }
+
 .boxImg .img2{
     width: 400px;
     align-items: normal;
     max-width: 100%;
 }
+
 .boxImg .img3{
-   
     width: 500px;
     position: absolute;
     bottom: 40px;
     margin-left: -25%;
     max-width: 100%;
 }
+
 .boxImg .img4{
-   
     width: 600px;
     position: absolute;
     bottom: 40px;
@@ -176,5 +186,10 @@ background-color: brown;
     max-width: 100%;
 }
 
-
-
+.boxImg .img5{
+    width: 350px;
+    bottom: 40px;
+    margin-right: -100%;
+    max-width: 100%;
+    height: 350px;
+}
